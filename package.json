@@ -1,0 +1,26 @@
+{
+  "title": "WooCommerce Mix and Match Products - Random Configuration",
+  "name": "wc-mnm-random",
+  "version": "1.0.0-beta-1",
+  "description": "Fill Mix and Match container with random configuration",
+  "main": "Gruntfile.js",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kathyisawesome/wc-mnm-random"
+  },
+  "bugs": {
+    "url": "https://github.com/kathyisawesome/wc-mnm-random/issues"
+  },
+  "author": "helgatheviking",
+  "devDependencies": {
+    "grunt": "~1.4.1",
+    "grunt-checktextdomain": "~1.0.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-wp-i18n": "~1.0.3",
+    "load-grunt-tasks": "~5.1.0"
+  }
+}
