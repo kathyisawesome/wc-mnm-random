@@ -44,7 +44,7 @@ function init() {
 	add_filter( 'woocommerce_mnm_get_posted_container_configuration', __NAMESPACE__ . '\randomize_config', 10, 2 );
 
 	// Disable "Edit" link in cart.
-	add_filter( 'wc_mnm_show_edit_it_cart', __NAMESPACE__ . '\disable_edit_in_cart', 10, 2 );
+	add_filter( 'wc_mnm_show_edit_it_cart_link', __NAMESPACE__ . '\disable_edit_in_cart', 10, 2 );
 
 }
 
